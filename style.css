@@ -44,10 +44,12 @@ div {
     left: 30px;
     margin: 20px 0px 20px 0px;
     box-sizing: border-box;
+    transform: translate(10px, 10px);
+    animation: float 2000ms infinite alternate-reverse;
 }
 
 .signup {
-    background-color: purple;
+    background-color: rgb(128, 0, 128);
     height: 25px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -56,6 +58,51 @@ div {
     font-family: Roboto, sans-serif;
     position: fixed;
     bottom: 0;
+    transition: background-color 500ms;
+}
+
+.signup:hover {
+    background-color: rgba(128, 0, 128, 0.5);
+}
+
+button {
+    transition: all 1000ms;
+    padding: 10px;
+}
+
+.contrastbutton:hover {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.contrast:hover {
+    color: white;
+}
+
+@keyframes float {
+    0% {
+        transform: translate(0px, 0px);
+    }
+
+    100% {
+        transform: translate(20px, 20px;)
+    }
+}
+
+@media (max-width: 576px) {
+    .nametitle {
+        font-size: 25px;
+    }
+}
+
+.nav__link {
+    color: black;
+}
+
+.nav__link--active {
+    font-weight: bold;
+    color: blue;
 }
 
 /*boxmodel html*/

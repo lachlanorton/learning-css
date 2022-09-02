@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* scenario 1 */
+
+.container {
+    width: 100%;
+    height: 200px;
+    border: 5px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    border: 3px solid blue;
+}   
+
+.box--small {
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+}
+
+.smallboxwrapper {
+    display: flex;
+    align-items: center;
+}
+
+/* scenario 2 */
+
+.container2 {
+    width: 100%;
+    border: 5px solid gray;
+    padding: 20px 20px 0px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.title2 {
+    width: 100%;
+    height: 40px;
+    border: 5px solid black;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.box2 {
+    width: 30%;
+    height: 100px;
+    border: 3px solid blue;
+    margin-bottom: 10px;
+}
+
+.boxwrapper2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.row {
+    width: 100%;
+    max-width: 500px;
+}
+
+/* scenario 3 */
+
+.container3 {
+    border: 5px solid black;
+    display: flex;
+    padding: 50px;
+    justify-content: space-between;
+}
+
+.box3 {
+
+    height: 50px;
+    border: 3px solid blue;
+    margin-bottom: 10px;
+}
+
+.boxlarge {
+    width: 400px;
+    border: 5px solid blue;
+}
+
+.list3 {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.boxlarge-wrapper {
+    width: 45%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* scenario 4 */
+.container4 {
+    border: 5px solid black;
+    display: flex;
+    padding: 50px;
+    justify-content: space-between;
+}
+
+.box4 {
+
+    height: 50px;
+    border: 3px solid blue;
+    margin-bottom: 10px;
+}
+
+.boxlarge4 {
+    width: 400px;
+    border: 5px solid blue;
+}
+
+.list4 {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.boxlarge-wrapper4 {
+    width: 45%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.row4 {
+    /*border: 5px solid red;*/
+    display: flex;
+    justify-content: space-between;
+}
+
+.rowbox4 {
+    width: 30%;
+    height: 50px;
+    border: 3px solid blue;
+}
